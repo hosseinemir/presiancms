@@ -1,0 +1,9 @@
+.app-body{
+    display: flex;
+    
+}
+.div-for-test{
+    flex:4;
+    font-size: 50px;
+    
+}

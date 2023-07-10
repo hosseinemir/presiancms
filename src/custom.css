@@ -1,0 +1,25 @@
+@import url(./reset.css);
+
+@font-face {
+    font-family:iranyekan ;
+    src: url(./fonts/IRYekan.ttf);
+}
+:root{
+    --white:#ffffff;
+    --white-50:#eeeeee;
+    --light-gray:#e7e7e7;
+    --dark-gray:teal;
+    --black:#000000;
+}
+
+
+body{
+    background-color: var(--white-50);
+    direction: rtl;
+    display: flex;
+    overflow-x: hidden;
+}
+
+body,html,*{
+    font-family: iranyekan;
+}

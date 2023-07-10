@@ -1,0 +1,14 @@
+.error-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff4f4f;
+    padding: 40px;
+    width: 90%;
+}
+
+.error-p{
+    color: var(--white);
+    font-size: 26px;
+    font-weight: 700;
+}

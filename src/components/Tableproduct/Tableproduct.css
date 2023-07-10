@@ -1,0 +1,39 @@
+@import url(../Addproduct/Addproduct.css);
+
+.Tableproduct-div {
+  background-color: var(--white);
+  width: 90%;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.Tableproduct-main {
+  width: 100%;
+}
+.Tableproduct-tr1 th {
+  text-align: right;
+  font-weight: 700;
+  padding: 20px;
+}
+.Tableproduct-tr2 td {
+  font-weight: 650;
+  text-align: right;
+  padding: 20px;
+  vertical-align: middle;
+}
+.Tableproduct-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 15px;
+}
+.Tableproduct-btn {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 650;
+  margin: 3px;
+}

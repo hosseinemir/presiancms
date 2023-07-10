@@ -1,0 +1,34 @@
+.info-modal-con{
+    background-color: var(--white);
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -10px rgb(0, 0, 0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.info-table{
+    width: 100%;
+}
+.info-tr1 th{
+    text-align: center;
+    padding: 10px;
+    font-weight: 650;
+}
+.info-tr2 td{
+    padding: 10px;
+    text-align: center;
+}
+.info-modal-con button{
+    background-color: #ff4f4f;
+    border-radius: 5px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

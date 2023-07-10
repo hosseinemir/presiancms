@@ -1,0 +1,58 @@
+.comments-main{
+    flex:4;
+    margin: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+.Commenttable-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+  width: 90%;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.Tableproduct-btn {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 650;
+    margin: 3px;
+  }
+  .comment-table{
+      width: 100%;
+  }
+  .Tableproduct-tr1 th {
+    text-align: right;
+    font-weight: 700;
+    padding: 20px;
+  }
+  .Tableproduct-tr2 td {
+    font-weight: 650;
+    text-align: right;
+    padding: 20px;
+    vertical-align: middle;
+  }
+  .info-comment{
+    text-align: center;
+    padding: 40px;
+    font-weight: 650;
+    width: 100%;
+  }
+  .comment-textarea{
+    width: 40%;
+    border: none;
+    box-shadow: 0 0 20px -15px rgb(0, 0, 0,0.8);
+    padding: 10px;
+    background-color: var(--white-50);
+  }
